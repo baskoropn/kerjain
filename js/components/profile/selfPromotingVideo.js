@@ -1,16 +1,9 @@
-
 import React, { Component } from 'react';
-
 import { Image, StatusBar, TouchableOpacity } from "react-native";
-
 import { Container, Content, Card, CardItem, Text, View, Body, List, ListItem, Icon, Right, Button, Label, Left } from 'native-base';
-
 import styles from './styles';
-
 import Video from 'react-native-video';
-
 const promote = require('../../../img/promote.mp4');
-
 
 export default class SelfPromotingVideo extends Component { // eslint-disable-line
 
