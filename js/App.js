@@ -8,6 +8,7 @@ import { StackNavigator, TabNavigator } from "react-navigation";
 
 import Drawer from "./Drawer";
 import Login from "./components/login/";
+import LoginRecruiter from "./components/recruiter/login/";
 import Register from "./components/register/";
 import Home from "./components/home/";
 import Education from "./components/register/education";
@@ -29,6 +30,7 @@ const AppNavigator = StackNavigator(
     {
         Drawer: { screen: Drawer },
         Login: { screen: Login },
+        LoginRecruiter: { screen: LoginRecruiter },
         Register: { screen: Register },
         Home: { screen: Home },
         Education: { screen: Education },
