@@ -5,7 +5,7 @@ import { Container, Content, Button, Text, Form, Header, Item, Label, Input, Ico
 
 import styles from "./styles";
 
-const launchscreenLogo = require("../../../img/logo2.png");
+const launchscreenLogo = require("../../../img/logopanjang.png");
 
 class Login extends Component {
 	render() {
@@ -17,13 +17,15 @@ class Login extends Component {
 						<Image source={launchscreenLogo} style={styles.logo} />
 						<Text style={styles.titleContainer}>Promote - Engage - Recruit</Text>
 					</View>
-					<View style={{flexDirection : 'row', flex : 2, alignItems : 'center'}}>
-						<Button transparent info style={{flex : 1, marginRight : 5, marginLeft : 5}} onPress={() => this.props.navigation.navigate("Login")} >
-							<Text style={{fontSize : 12, color : 'white'}}> Login as Talent</Text>
+					<View style={{flexDirection : 'row', flex : 4, alignItems : 'center'}}>
+					<Button transparent info style={{flex : 0.5}} />
+						<Button transparent info style={{flex : 1.5, marginTop: 5, marginRight : 5, marginLeft : 5, marginBottom:5}} onPress={() => this.props.navigation.navigate("Login")} >
+							<Text style={{fontSize : 14, color : 'white', borderBottomColor: 'white', borderBottomWidth:1}}> Talent</Text>
 						</Button>
-						<Button transparent info style={{flex : 1, marginRight : 5, marginLeft : 5}} onPress={() => this.props.navigation.navigate("LoginRecruiter")}>
-							<Text style={{fontSize : 12, color : 'white'}}> Login as Recruiter</Text>
+						<Button transparent info style={{flex : 1.5, marginTop: 5, marginBottom:5, marginRight : 5, marginLeft : 5}} onPress={() => this.props.navigation.navigate("LoginRecruiter")}>
+							<Text style={{fontSize : 14, color : 'white'}}> Recruiter</Text>
 						</Button>
+						<Button transparent info style={{flex : 0.5}} />
 					</View>
 					<View style={styles.contentForm}>
 						<Form>
@@ -88,14 +90,7 @@ class Login extends Component {
 										paddingLeft:5 }}>Register here</Text>
 							</TouchableOpacity>
 					</View>
-					<View style={{flexDirection : 'row', flex : 2, alignItems : 'center'}}>
-						<Button transparent info style={{flex : 1, marginRight : 5, marginLeft : 5}} >
-							<Text style={{fontSize : 12, color : 'white'}}> Login as Talent</Text>
-						</Button>
-						<Button transparent info style={{flex : 1, marginRight : 5, marginLeft : 5}}>
-							<Text style={{fontSize : 12, color : 'white'}}> Login as Recruiter</Text>
-						</Button>
-					</View>
+
 				</Content>
 			</Container>
 		);

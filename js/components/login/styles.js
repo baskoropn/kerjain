@@ -22,9 +22,10 @@ export default {
     opacity:0.8
   },
   logo: {
-    //left: Platform.OS === "android" ? 40 : 50,
-    //top: Platform.OS === "android" ? 20 : 20,
-
+    // left: Platform.OS === "android" ? 40 : 50,
+    // top: Platform.OS === "android" ? 20 : 20,
+    width: 200,
+    height: 100,
   },
   contentForm:{
     flex:1,

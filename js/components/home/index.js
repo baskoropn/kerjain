@@ -47,7 +47,7 @@ class Home extends Component {
 	render() {
 		return (
 			<Container style={styles.container}>
-			    <StatusBar barStyle="light-content" backgroundColor='#189DAE' />			
+			    <StatusBar barStyle="light-content" backgroundColor='#189DAE' />
 				<Header style={{ backgroundColor:'#189DAE' }} hasTabs>
 					<Left>
 						<Button
@@ -94,9 +94,9 @@ class Home extends Component {
 				                </CardItem>
 				                <View style={{alignItems : 'center'}}>
 				                  <CardItem>
-				                  	
+
 				                    	<Thumbnail large source={item.img} style={{height : 60, width : 100}} />
-				                    
+
 				                  </CardItem>
 				                  <CardItem>
 				                    <View style={{alignItems : 'center'}}>
@@ -127,8 +127,8 @@ class Home extends Component {
 				              </TouchableOpacity>
 				            }
 				        />
-				    </View>              
-				</Content>	  
+				    </View>
+				</Content>
 			</Container>
 		);
 	}
