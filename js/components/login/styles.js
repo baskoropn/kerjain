@@ -19,6 +19,13 @@ export default {
     fontSize:15,
     opacity:0.8
   },
+   titleContainer1: {
+    color:'#FFF',
+    textAlign: 'center',
+    marginTop:5,
+    fontSize:18,
+    opacity:0.8
+  },
   logo: {
     // left: Platform.OS === "android" ? 40 : 50,
     // top: Platform.OS === "android" ? 20 : 20,

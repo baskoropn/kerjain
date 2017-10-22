@@ -25,6 +25,7 @@ class Login extends Component {
 				<Content style={styles.container}>
 					<View style={styles.logoContainer}>
 						<Image source={launchscreenLogo} style={styles.logo} />
+						<Text style={styles.titleContainer1}>Kerja.In</Text>
 						<Text style={styles.titleContainer}>Promote - Engage - Recruit</Text>
 					</View>
 					<View style={{flexDirection : 'row', flex : 4, alignItems : 'center'}}>
@@ -108,6 +109,7 @@ class Login extends Component {
 					<Content style={styles.container}>
 						<View style={styles.logoContainer}>
 							<Image source={launchscreenLogo} style={styles.logo} />
+							<Text style={styles.titleContainer1}>Kerja.In</Text>
 							<Text style={styles.titleContainer}>Promote - Engage - Recruit</Text>
 						</View>
 						<View style={{flexDirection : 'row', flex : 4, alignItems : 'center'}}>
@@ -147,7 +149,7 @@ class Login extends Component {
 								marginTop: 30,
 								marginBottom:25,
 								backgroundColor:'#d35400' }}
-							onPress={() => this.props.navigation.navigate("Home")}
+							onPress={() => this.props.navigation.navigate("HomeRecruiter")}
 							>
 								<Text>Sign In</Text>
 							</Button>

@@ -7,8 +7,8 @@ import { Root } from "native-base";
 import { StackNavigator, TabNavigator } from "react-navigation";
 
 import Drawer from "./Drawer";
+import DrawerRecruiter from "./DrawerRecruiter";
 import Login from "./components/login/";
-import LoginRecruiter from "./components/recruiter/login/";
 import Register from "./components/register/";
 import Home from "./components/home/";
 import Education from "./components/register/education";
@@ -25,6 +25,16 @@ import JobDetail from "./components/jobDetail/";
 import Notification from "./components/home/notification";
 import JobSearch from "./components/home/jobSearch";
 import ForgotPassword from "./components/forgotPassword/";
+
+/* Page Recruiter */
+
+import LoginRecruiter from "./components/recruiter/login/";
+import HomeRecruiter from "./components/recruiter/home/";
+import JobsPosting from "./components/recruiter/jobs/";
+import JobsPostingAdd from "./components/recruiter/jobs/jobs_add";
+import CompanyProfile from "./components/recruiter/profile/";
+import CompanyDetail from "./components/recruiter/profile/companyDetail";
+import CompanyVideo from "./components/recruiter/profile/companyVideo";
 
 const AppNavigator = StackNavigator(
     {
@@ -47,6 +57,13 @@ const AppNavigator = StackNavigator(
         PersonalInfo: { screen: PersonalInfo },
         SelfPromotingVideo: { screen: SelfPromotingVideo },
         WorkExperienceProfile: { screen: WorkExperienceProfile },
+
+        HomeRecruiter: { screen: HomeRecruiter },
+        JobPosting: { screen: JobsPosting },
+        JobsPostingAdd: { screen: JobsPostingAdd },
+        CompanyProfile: { screen: CompanyProfile },
+        CompanyDetail: { screen: CompanyDetail },
+        CompanyVideo: { screen: CompanyVideo },                
     },
     {
         initialRouteName: "Drawer",

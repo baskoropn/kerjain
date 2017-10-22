@@ -79,7 +79,7 @@ class Register extends Component {
 			              </Right>
 			          </ListItem>
 		          </Form>
-		          <Button block  info style={{ margin: 15, marginTop: 50 }} onPress={() => goBack()}>
+		          <Button block  info style={{ margin: 15, marginTop: 50 }} onPress={() => this.props.navigation.navigate("Home")}>
 		            <Text>Search</Text>
 		          </Button>
 				</Content>
