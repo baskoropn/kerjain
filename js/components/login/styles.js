@@ -4,9 +4,7 @@ const { StyleSheet, Dimensions, Platform } = React;
 const deviceHeight = Dimensions.get("window").height;
 
 export default {
-  container: {
-    backgroundColor: "#5ABECC"
-  },
+  
   logoContainer: {
     flex: 1,
     alignItems: "center",
