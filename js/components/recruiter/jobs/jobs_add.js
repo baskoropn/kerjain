@@ -7,8 +7,8 @@ import DatePicker from 'react-native-datepicker'
 import JobPosting from './jobPosting';
 import VideoQuestion from './videoQuestion';
 
-const imgJobMbdev = require("../../../img/web-cover1.jpg");
-const imgJobDesain = require("../../../img/camera.png");
+const imgJobMbdev = require("../../../../img/web-cover1.jpg");
+const imgJobDesain = require("../../../../img/camera.png");
 
 class JobAdd extends Component {
 	constructor(props) {

@@ -20,13 +20,13 @@ class Home extends Component {
 					<Left>
 						<Button
 						transparent
-						onPress={() => this.props.navigation.navigate("DrawerOpen")}
+						onPress={() => this.props.navigation.navigate("CompanyProfile")}
 						>
 						<Icon name="menu" />
 						</Button>
 					</Left>
 					<Body>
-						<Title>SunFish Talent</Title>
+						<Title>SunFish Recruiter</Title>
 					</Body>
 				</Header>
 				<Tabs tabBarUnderlineStyle= {{ backgroundColor:'#d35400' }} renderTabBar={()=> <ScrollableTab />}>

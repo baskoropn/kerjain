@@ -6,7 +6,7 @@ import styles from "./style";
 import CompanyDetail from './companyDetail';
 import CompanyVideo from './companyVideo';
 
-const drawerCover = require("../../../img/company/dataon/112116_NBC_1.jpg");
+const drawerCover = require("../../../../img/company/dataon/112116_NBC_1.jpg");
 
 class MyProfile extends Component {
 	
@@ -17,7 +17,7 @@ class MyProfile extends Component {
 				<Header style={{ backgroundColor: '#d35400' }}>
 					<StatusBar barStyle="light-content" backgroundColor='#d35400' />
 					<Left>
-						<Button transparent onPress={() => this.props.navigation.navigate("DrawerOpen")}>
+						<Button transparent onPress={() => this.props.navigation.navigate("JobPosting")}>
 							<Icon name="menu" />
 						</Button>
 					</Left>

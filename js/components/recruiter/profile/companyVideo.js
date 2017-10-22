@@ -9,7 +9,7 @@ import styles from './style';
 
 import Video from 'react-native-video';
 
-const promote = require('../../../img/promote.mp4');
+const promote = require('../../../../img/promote.mp4');
 
 export default class SelfPromotingVideo extends Component { // eslint-disable-line
 

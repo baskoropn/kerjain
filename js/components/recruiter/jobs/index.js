@@ -3,8 +3,8 @@ import { Image, View, StatusBar, TouchableOpacity, TouchableHighlight } from "re
 import { Card, CardItem, Thumbnail, Container, Content, Badge, List, ListItem, Button, Text, Form, Header, Item, Label, Input, Icon, Title, Body, Left, Right } from "native-base";
 import style from "./style";
 import styles from "./styles";
-const imgJobMbdev = require("../../../img/web-cover1.jpg");
-const imgJobDesain = require("../../../img/camera.png");
+const imgJobMbdev = require("../../../../img/web-cover1.jpg");
+const imgJobDesain = require("../../../../img/camera.png");
 
 class Jobs extends Component {
 	render() {
@@ -13,7 +13,7 @@ class Jobs extends Component {
 				<Header style={{ backgroundColor:'#d35400' }}>
 					<StatusBar barStyle="light-content" backgroundColor='#d35400' />
 					<Left>
-						<Button transparent onPress={() => this.props.navigation.navigate("DrawerOpen")}>
+						<Button transparent onPress={() => this.props.navigation.navigate("HomeRecruiter")}>
 							<Icon name="menu" />
 						</Button>
 					</Left>
@@ -23,7 +23,7 @@ class Jobs extends Component {
 		        <Content style={{ backgroundColor:'#f0f0f0', padding:10 }}>
 		        	<View>
 		        		<Right>
-		        			<Button transparent bordered danger style= {{marginLeft : 260, marginBottom : 10}} onPress={() => this.props.navigation.navigate("JobAdd")}>
+		        			<Button transparent bordered danger style= {{marginLeft : 260, marginBottom : 10}} onPress={() => this.props.navigation.navigate("JobsPostingAdd")}>
 				            	<Icon name='add' />
 				          </Button>
 		        		</Right>
