@@ -26,6 +26,11 @@ import Notification from "./components/home/notification";
 import JobSearch from "./components/home/jobSearch";
 import ForgotPassword from "./components/forgotPassword/";
 
+import History from "./components/myhistory/";
+import Interview from "./components/interview/";
+import InterviewStep1 from "./components/interview/step1";
+import InterviewStep2 from "./components/interview/step2";
+
 /* Page Recruiter */
 
 import LoginRecruiter from "./components/recruiter/login/";
@@ -57,6 +62,10 @@ const AppNavigator = StackNavigator(
         PersonalInfo: { screen: PersonalInfo },
         SelfPromotingVideo: { screen: SelfPromotingVideo },
         WorkExperienceProfile: { screen: WorkExperienceProfile },
+        History: { screen: History },
+        Interview: { screen: Interview },
+        InterviewStep1: { screen: InterviewStep1 },
+        InterviewStep2: { screen: InterviewStep2 },
 
         HomeRecruiter: { screen: HomeRecruiter },
         JobPosting: { screen: JobsPosting },

@@ -70,6 +70,18 @@ class SideBar extends Component {
 								</TouchableOpacity>							
 							</Left>
 						</ListItem>
+						<ListItem button style={styles.listItem} onPress={() => this.props.navigation.navigate("History")}>
+							<Left>
+								<Icon name="paper" style={styles.mnuIcon}/>							
+								<Text style={styles.mnuItem}>My History</Text>							
+							</Left>
+						</ListItem>
+						<ListItem button style={{ borderBottomWidth:0, marginRight: 20 }}>
+							<Left>
+								<Icon name="copy" style={styles.mnuIcon} />							
+								<Text style={styles.mnuItem}>Scheduller</Text>							
+							</Left>
+						</ListItem>
 						<ListItem itemDivider>
 							<Text style={styles.mnuDevider}>Setting</Text>
 						</ListItem>
