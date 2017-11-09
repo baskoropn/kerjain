@@ -40,6 +40,12 @@ import JobsPostingAdd from "./components/recruiter/jobs/jobs_add";
 import CompanyProfile from "./components/recruiter/profile/";
 import CompanyDetail from "./components/recruiter/profile/companyDetail";
 import CompanyVideo from "./components/recruiter/profile/companyVideo";
+import Schedule from "./components/recruiter/schedule/index";
+import ScheduleI from "./components/recruiter/schedule/indexI";
+import ScheduleS from "./components/recruiter/schedule/indexS";
+import Candidate from "./components/recruiter/candidate/";
+import CandidateI from "./components/recruiter/candidate/indexI";
+import CandidateS from "./components/recruiter/candidate/indexS";
 
 const AppNavigator = StackNavigator(
     {
@@ -72,7 +78,13 @@ const AppNavigator = StackNavigator(
         JobsPostingAdd: { screen: JobsPostingAdd },
         CompanyProfile: { screen: CompanyProfile },
         CompanyDetail: { screen: CompanyDetail },
-        CompanyVideo: { screen: CompanyVideo },                
+        CompanyVideo: { screen: CompanyVideo },
+        Schedule  : { screen: Schedule },
+        ScheduleI  : { screen: ScheduleI },
+        ScheduleS  : { screen: ScheduleS },
+        Candidate : { screen: Candidate },
+        CandidateI: { screen: CandidateI },
+        CandidateS: { screen: CandidateS },                
     },
     {
         initialRouteName: "Drawer",
